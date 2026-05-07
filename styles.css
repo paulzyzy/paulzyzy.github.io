@@ -333,6 +333,12 @@ h3 {
   margin-bottom: 16px;
 }
 
+.publication-item .role-line {
+  margin-bottom: 4px;
+  color: var(--accent-dark);
+  font-weight: 800;
+}
+
 .split-grid,
 .project-grid,
 .award-list {
@@ -440,7 +446,7 @@ h3 {
 
   .site-nav {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 8px 12px;
     font-size: 0.9rem;
   }
