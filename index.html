@@ -26,27 +26,30 @@
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="#research">Research</a>
-        <a href="#cv">CV</a>
         <a href="#contact">Contact</a>
       </nav>
     </header>
 
     <main id="top">
-      <section class="hero section-shell" aria-labelledby="intro-title">
+      <section id="about" class="hero section-shell" aria-labelledby="intro-title">
         <div class="hero-copy">
-          <p class="eyebrow">PhD Student · Computer Science and Engineering</p>
           <h1 id="intro-title">Yuan Zhuang <span>庄元</span></h1>
-          <p class="lead">
-            I work on large language models, mixture of experts, reinforcement learning, and
-            robotics at the University of Connecticut.
-          </p>
+          <div class="lead hero-about">
+            <p>
+              I am a PhD student at the University of Connecticut advised by
+              <a href="https://feimiao.org/">Prof. Fei Miao</a>. I received an M.S. in Data
+              Science from the University of Pennsylvania and a B.Eng. in Ocean Engineering and
+              Technology from Zhejiang University. My research focuses on Large Language Models
+              (LLMs), Mixture of Experts (MoE), Reinforcement Learning, and Robotics. I am
+              currently looking for a full-time position. If there is an opening and you think it
+              would be a potential fit for me, please contact me.
+            </p>
+          </div>
           <div class="link-row" aria-label="Profile links">
-            <a href="mailto:paulyuanzhuang@gmail.com">Email</a>
             <a href="https://github.com/paulzyzy">GitHub</a>
             <a href="https://scholar.google.com/citations?user=v0-feP0AAAAJ&amp;hl=en">Google Scholar</a>
             <a href="https://www.linkedin.com/in/yuan-zhuang-b3bbb1249/">LinkedIn</a>
-            <a href="assets/Yuan_Zhuang_CV.pdf" target="_blank" rel="noopener">View CV</a>
-            <a href="assets/Yuan_Zhuang_CV.pdf" download>Download CV</a>
+            <a href="assets/Yuan_Zhuang_CV.pdf" target="_blank" rel="noopener">CV</a>
           </div>
         </div>
         <figure class="portrait">
@@ -57,26 +60,6 @@
             alt="Yuan Zhuang standing by a lake with mountains in the background"
           >
         </figure>
-      </section>
-
-      <section id="about" class="section-shell two-column" aria-labelledby="about-title">
-        <div>
-          <p class="section-kicker">About</p>
-          <h2 id="about-title">Researcher in LLMs, MoE, Reinforcement Learning, and Robotics</h2>
-        </div>
-        <div class="prose">
-          <p>
-            I am a PhD student at the University of Connecticut advised by
-            <a href="https://feimiao.org/">Prof. Fei Miao</a>. I received an M.S. in Data
-            Science from the University of Pennsylvania and a B.Eng. in Ocean Engineering and
-            Technology from Zhejiang University. My research focuses on Large Language Models
-            (LLMs), Mixture of Experts (MoE), Reinforcement Learning, and Robotics.
-          </p>
-          <p>
-            I am currently looking for a full-time position. If there is an opening and you think
-            it would be a potential fit for me, please contact me.
-          </p>
-        </div>
       </section>
 
       <section id="research" class="section-shell" aria-labelledby="research-title">
@@ -93,8 +76,8 @@
             <div>
               <h3>Low-Rank Adaptation for Critic Learning in Off-Policy Reinforcement Learning</h3>
               <p class="author-list">
-                Yuan Zhuang*, Yuexin Bian*, Sihong He, Jie Feng, Qing Su, Songyang Han, Jonathan
-                Petit, Shihao Ji, Yuanyuan Shi, Fei Miao
+                <strong>Yuan Zhuang*</strong>, Yuexin Bian*, Sihong He, Jie Feng, Qing Su,
+                Songyang Han, Jonathan Petit, Shihao Ji, Yuanyuan Shi, Fei Miao
               </p>
               <div class="inline-links">
                 <a href="https://arxiv.org/abs/2604.18978">arXiv</a>
@@ -111,7 +94,8 @@
             <div>
               <h3>LD-MoLE: Learnable Dynamic Routing for Mixture of LoRA Experts</h3>
               <p class="author-list">
-                Yuan Zhuang*, Yi Shen*, Yuexin Bian, Qing Su, Shihao Ji, Yuanyuan Shi, Fei Miao
+                <strong>Yuan Zhuang*</strong>, Yi Shen*, Yuexin Bian, Qing Su, Shihao Ji,
+                Yuanyuan Shi, Fei Miao
               </p>
               <div class="inline-links">
                 <a href="https://arxiv.org/abs/2509.25684">arXiv</a>
@@ -128,7 +112,7 @@
             <div>
               <h3>YOLO-MARL: You Only LLM Once for Multi-Agent Reinforcement Learning</h3>
               <p class="author-list">
-                Yuan Zhuang*, Yi Shen*, Zhili Zhang, Yuxiao Chen, Fei Miao
+                <strong>Yuan Zhuang*</strong>, Yi Shen*, Zhili Zhang, Yuxiao Chen, Fei Miao
               </p>
               <div class="inline-links">
                 <a href="https://arxiv.org/abs/2410.03997">arXiv</a>
@@ -137,37 +121,13 @@
             </div>
           </article>
         </div>
-        <p class="research-note">* Equal contribution.</p>
-      </section>
-
-      <section id="cv" class="section-shell cv-section two-column" aria-labelledby="cv-title">
-        <div>
-          <p class="section-kicker">CV</p>
-          <h2 id="cv-title">Curriculum Vitae</h2>
-        </div>
-        <div class="prose">
-          <p>
-            View my CV directly in the browser or download a local copy.
-          </p>
-          <div class="link-row">
-            <a href="assets/Yuan_Zhuang_CV.pdf" target="_blank" rel="noopener">View CV</a>
-            <a href="assets/Yuan_Zhuang_CV.pdf" download>Download CV</a>
-          </div>
-        </div>
       </section>
 
       <section id="contact" class="section-shell contact-section" aria-labelledby="contact-title">
         <p class="section-kicker">Contact</p>
         <h2 id="contact-title">Open to Full-Time Roles and Research Collaboration</h2>
-        <p>
-          The best way to reach me is by email. You can also find current projects and publications
-          through my GitHub and Google Scholar profiles.
-        </p>
         <div class="link-row center" aria-label="Contact links">
           <a href="mailto:paulyuanzhuang@gmail.com">paulyuanzhuang@gmail.com</a>
-          <a href="https://github.com/paulzyzy">GitHub</a>
-          <a href="https://scholar.google.com/citations?user=v0-feP0AAAAJ&amp;hl=en">Scholar</a>
-          <a href="https://www.linkedin.com/in/yuan-zhuang-b3bbb1249/">LinkedIn</a>
         </div>
       </section>
     </main>
