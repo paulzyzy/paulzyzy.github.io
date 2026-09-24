@@ -3,24 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yuan Zhuang | University of Connecticut</title>
+    <title>Yuan Zhuang | Efficient Foundation Models &amp; Adaptive Computation</title>
     <meta
       name="description"
-      content="Yuan Zhuang (庄元), PhD student at the University of Connecticut advised by Prof. Fei Miao."
+      content="Yuan Zhuang (庄元), a UConn Ph.D. student researching efficient foundation models, adaptive computation, reinforcement learning, and embodied AI. Expected graduation: December 2026."
     >
     <meta name="author" content="Yuan Zhuang">
     <meta property="og:title" content="Yuan Zhuang">
     <meta
       property="og:description"
-      content="PhD student at the University of Connecticut working on LLMs, mixture of experts, reinforcement learning, and robotics."
+      content="UConn Ph.D. student researching efficient foundation models and adaptive computation. Seeking full-time research and applied science opportunities; expected graduation December 2026."
     >
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://paulzyzy.github.io/">
     <meta property="og:image" content="https://paulzyzy.github.io/assets/profile.jpg">
-    <link rel="preload" as="image" href="assets/profile.jpg">
-    <link rel="stylesheet" href="styles.css">
+    <meta property="og:image:alt" content="Yuan Zhuang by a mountain lake">
+    <link rel="canonical" href="https://paulzyzy.github.io/">
+    <link rel="stylesheet" href="styles.css?v=20260923">
   </head>
   <body>
+    <a class="skip-link" href="#about">Skip to content</a>
     <header class="site-header">
       <a class="brand" href="#top" aria-label="Yuan Zhuang home">YZ</a>
       <nav class="site-nav" aria-label="Primary navigation">
@@ -32,32 +34,51 @@
     </header>
 
     <main id="top">
-      <section id="about" class="hero section-shell" aria-labelledby="intro-title">
-        <div class="hero-copy">
-          <h1 id="intro-title">Yuan Zhuang <span>庄元</span></h1>
-          <div class="lead hero-about">
+      <section id="about" class="profile section-shell" aria-labelledby="intro-title" tabindex="-1">
+        <div class="profile-copy">
+          <h1 id="intro-title">Yuan Zhuang <span lang="zh">庄元</span></h1>
+          <div class="about-text">
             <p>
-              I am a PhD student in Computer Science and Engineering at the University of
-              Connecticut, advised by <a href="https://feimiao.org/">Prof. Fei Miao</a>. I
-              received my M.S. in Data Science from the University of Pennsylvania and my B.Eng. in
-              Ocean Engineering and Technology from Zhejiang University. My research focuses on
-              large language models, mixture of experts, reinforcement learning, and robotics. I am
-              currently seeking full-time opportunities; please feel free to contact me if my
-              background may be a fit for an opening.
+              I am a Ph.D. student in Computer Science and Engineering at the University of
+              Connecticut. My primary advisor is
+              <a href="https://scholar.google.com/citations?user=fH2YF6YAAAAJ&amp;hl=en">Prof. Fei Miao</a>,
+              and my co-advisors are
+              <a href="https://scholar.google.com/citations?user=BJdHw6AAAAAJ&amp;hl=en">Prof. Dongjin Song</a>
+              and <a href="https://scholar.google.com/citations?user=qMfWf9EAAAAJ&amp;hl=en">Prof. Jonathan Shihao Ji</a>.
+            </p>
+            <p>
+              My research focuses on efficient foundation models and adaptive computation,
+              including long-context language modeling and mixture-of-experts. I also work on
+              reinforcement learning and embodied AI.
+            </p>
+            <p>
+              In summer 2026, I interned at Microsoft Research, mentored by
+              <a href="https://scholar.google.com/citations?user=NIewcxMAAAAJ&amp;hl=en&amp;oi=ao">Dr. Xiaodong Liu</a>,
+              developing adaptive-depth methods for test-time-training language models.
+              Previously, I worked on vision-language-action models at JD.com. I received my
+              M.S. in Data Science from the University of Pennsylvania and my B.Eng. in Ocean
+              Engineering and Technology from Zhejiang University.
             </p>
           </div>
+          <p class="availability">
+            I expect to graduate in <strong>December 2026</strong> and am seeking full-time
+            Research Scientist, Research Engineer, and Applied Scientist opportunities.
+          </p>
           <div class="link-row" aria-label="Profile links">
             <a href="https://github.com/paulzyzy">GitHub</a>
             <a href="https://scholar.google.com/citations?user=v0-feP0AAAAJ&amp;hl=en">Google Scholar</a>
             <a href="https://www.linkedin.com/in/yuan-zhuang-b3bbb1249/">LinkedIn</a>
-            <a href="assets/Yuan_Zhuang_CV.pdf?v=20260827" target="_blank" rel="noopener">CV</a>
+            <a href="assets/Yuan_Zhuang_CV.pdf?v=20260923" target="_blank" rel="noopener" aria-label="CV (PDF, opens in a new tab)">CV</a>
           </div>
         </div>
         <figure class="portrait">
           <img
-            src="assets/profile.jpg"
+            src="assets/profile-small.jpg"
             srcset="assets/profile-small.jpg 480w, assets/profile.jpg 1350w"
-            sizes="(max-width: 760px) 92vw, 420px"
+            sizes="(max-width: 420px) 128px, (max-width: 700px) 160px, 240px"
+            width="240"
+            height="300"
+            fetchpriority="high"
             alt="Yuan Zhuang standing by a lake with mountains in the background"
           >
         </figure>
@@ -65,7 +86,6 @@
 
       <section id="research" class="section-shell" aria-labelledby="research-title">
         <div class="section-heading">
-          <p class="section-kicker">Research</p>
           <h2 id="research-title">Selected Research</h2>
         </div>
         <div class="publication-list">
@@ -121,47 +141,65 @@
               </div>
             </div>
           </article>
+
+          <article class="publication-item">
+            <div class="pub-meta">
+              <span>2026</span>
+              <strong>CoRL</strong>
+            </div>
+            <div>
+              <h3>Artificial Foveated Perception for Mitigating Shortcut Learning in Robotic Foundation Models</h3>
+              <p class="author-list">
+                Xiatao Sun, <strong>Yuan Zhuang</strong>, Mateo Sanchez Lopez Negrete,
+                Matei-Victor Coldea, Chen Liang, Haoyang Zhang, Che Liu, Ziyao Zeng,
+                Shawn Li, Qian Wang, Fei Miao, Daniel Rakita
+              </p>
+              <div class="inline-links">
+                <a href="https://arxiv.org/abs/2607.10655">arXiv</a>
+                <a href="https://github.com/Apollo-Lab-Yale/artificial-foveated-perception">Code</a>
+              </div>
+            </div>
+          </article>
         </div>
       </section>
 
-      <section id="experience" class="section-shell split-section" aria-labelledby="experience-title">
+      <section id="experience" class="section-shell" aria-labelledby="experience-title">
         <div class="section-heading">
-          <p class="section-kicker">Work Experience</p>
-          <h2 id="experience-title">Internships</h2>
+          <h2 id="experience-title">Work Experience</h2>
         </div>
         <div class="publication-list experience-list">
           <article class="publication-item">
             <div class="pub-meta">
-              <span>May 2026 - Aug 2026</span>
+              <span><time datetime="2026-05">May</time> - <time datetime="2026-08">Aug 2026</time></span>
               <strong>Redmond, WA</strong>
             </div>
             <div>
-              <h3>Microsoft</h3>
+              <h3>Microsoft Research</h3>
               <p class="role-line">Research Intern</p>
-              <p>Mixture of Experts, Test-Time Training.</p>
+              <p>Developed adaptive-depth methods for long-context test-time-training language models.</p>
             </div>
           </article>
 
           <article class="publication-item">
             <div class="pub-meta">
-              <span>May 2025 - Aug 2025</span>
+              <span><time datetime="2025-05">May</time> - <time datetime="2025-08">Aug 2025</time></span>
               <strong>Beijing, China</strong>
             </div>
             <div>
               <h3>JD.com</h3>
-              <p class="role-line">Research Intern</p>
-              <p>Vision Language Action Models (VLA).</p>
+              <p class="role-line">Research Intern, Embodied Technology Group</p>
+              <p>
+                Studied generalization and robustness of vision-language-action models on public
+                benchmarks within a logistics research project.
+              </p>
             </div>
           </article>
         </div>
       </section>
 
       <section id="contact" class="section-shell contact-section" aria-labelledby="contact-title">
-        <p class="section-kicker">Contact</p>
-        <h2 id="contact-title">Open to Full-Time Roles and Research Collaboration</h2>
-        <div class="link-row center" aria-label="Contact links">
-          <a href="mailto:paulyuanzhuang@gmail.com">paulyuanzhuang@gmail.com</a>
-        </div>
+        <h2 id="contact-title">Contact</h2>
+        <a href="mailto:paulyuanzhuang@gmail.com">paulyuanzhuang@gmail.com</a>
       </section>
     </main>
 
