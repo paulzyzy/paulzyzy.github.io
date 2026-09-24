@@ -353,7 +353,7 @@ h3 {
   }
 
   .site-nav {
-    gap: 0 12px;
+    gap: 0 8px;
     font-size: 0.8125rem;
   }
 
@@ -373,6 +373,17 @@ h3 {
 
   .link-row {
     gap: 0 18px;
+  }
+}
+
+@media (max-width: 360px) {
+  .profile {
+    grid-template-columns: minmax(0, 1fr) 112px;
+    column-gap: 16px;
+  }
+
+  .profile h1 {
+    font-size: 1.875rem;
   }
 }
 
